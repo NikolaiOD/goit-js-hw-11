@@ -7,26 +7,16 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: aliceblue;
   color: #212121;
   line-height: 1.5;
 }
 
-#search-box {
+.search-form {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
-}
-
-/* ======мои стили======== */
-
-/* ======общие======== */
-body {
-  background-color:aliceblue;
-}
-
-#search-box {
   background-color:bisque;
 }
 
@@ -36,39 +26,18 @@ img {
   height: auto;
 }
 
+h1,
 h2,
+h3,
+h4,
+h5,
+h6,
+p,
 ul {
   margin: 0;
 	padding: 0;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
 ul {
   list-style: none;
-}
-
-/* ======для списка стран======== */
-
-.country-list li {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin: 10px 0;
-}
-
-/* ======для одной страны======== */
-
-.country {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.country-flag {
-  width: 60px;
-  height: 40px;
 }
