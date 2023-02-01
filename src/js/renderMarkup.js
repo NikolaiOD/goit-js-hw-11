@@ -7,19 +7,19 @@ export const renderMarkup = (requestData, ref) => {
             <img src=${item.webformatURL} alt=${item.tags} loading="lazy" />
             <div class="info">
                 <p class="info-item">
-                    <b>Likes</b>
+                    <b>Likes:</b>
                     <b>${item.likes}</b>
                 </p>
                 <p class="info-item">
-                    <b>Views</b>
+                    <b>Views:</b>
                     <b>${item.views}</b>
                 </p>
                 <p class="info-item">
-                    <b>Comments</b>
+                    <b>Comments:</b>
                     <b>${item.comments}</b>
                 </p>
                 <p class="info-item">
-                    <b>Downloads</b>
+                    <b>Downloads:</b>
                     <b>${item.downloads}</b>
                 </p>
             </div>

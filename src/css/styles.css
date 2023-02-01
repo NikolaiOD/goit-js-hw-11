@@ -1,10 +1,13 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-ul {
-  list-style: none;
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
 }
 
-.btn {
-  display: flex;
+button {
   align-items: center;
   justify-content: center;
   font-family: "Roboto";
@@ -12,31 +15,18 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  width: 98px;
-  height: 49px;
+  width: 100px;
+  height: 40px;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 5px;
   border: 2px;
   cursor: pointer;
 }
 
-.btn-more {
+.load-more {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  width: 160px;
-  height: 49px;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 2px;
-  cursor: pointer;
+  margin: 10px auto;
 }
 
 .is-hidden {
@@ -51,4 +41,28 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+img {
+  width: 400px;
+  height: 240px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
 }
